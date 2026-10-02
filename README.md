@@ -14,6 +14,14 @@ In probe mode, Sentry checks xray-core configurations, selects the ones that wor
 
 In daemon (or service) mode, Sentry constantly checks the xray-core lists and rotates them so that you always have the best connection option. In this mode, Sentry configures xray-core via a configuration file and restarts the service on its own.
 
+## Get started
+
+### Download xray-core binaries
+
+- For Windows download from [xtls/xray-core](https://github.com/xtls/xray-core)
+- For Linux install from [XTLS/Xray-install](https://github.com/XTLS/Xray-install)
+- For macOS install via Brew [formula/xray](https://formulae.brew.sh/formula/xray)
+
 # License
 
 This project is distributed under the MIT License
