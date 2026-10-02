@@ -1,5 +1,5 @@
 import { parseArgs } from "@std/cli/parse-args";
-import { helpRecords, printHelpMessage } from "./src/help.ts";
+import { helpRecords, printHelpMessage } from "./src/cli/printHelpMessage.ts";
 
 /*
  * Define cli flags
@@ -38,13 +38,14 @@ function main() {
   if (Deno.args.length === 0 || flags["help"]) {
     printHelpMessage({
       name: "Sentry",
-      description: "Sentry is an open-source daemon and xray-core probe designed to optimize internet performance.",
+      description:
+        "Sentry is an open-source daemon and xray-core probe designed to optimize internet performance.",
       records: helpRecords,
     });
     Deno.exit();
   }
 
-  return
+  return;
 }
 
 main();
