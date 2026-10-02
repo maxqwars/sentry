@@ -10,7 +10,7 @@ Sentry is primarily designed for use on Linux as a service, the closest comparab
 
 In probe mode, Sentry checks xray-core configurations, selects the ones that work on your network, and saves them to a file that you can use for your own purposes.
 
-### 🔄️ deamon-mode
+### 🔄️ service-mode
 
 In daemon (or service) mode, Sentry constantly checks the xray-core lists and rotates them so that you always have the best connection option. In this mode, Sentry configures xray-core via a configuration file and restarts the service on its own.
 
