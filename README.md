@@ -12,7 +12,7 @@ In probe mode, Sentry checks xray-core configurations, selects the ones that wor
 
 ### 🔄️ service-mode
 
-In daemon (or service) mode, Sentry constantly checks the xray-core lists and rotates them so that you always have the best connection option. In this mode, Sentry configures xray-core via a configuration file and restarts the service on its own.
+In daemon (or service) mode, Sentry constantly checks the xray-core lists and rotates them so that you always have the best connection option. In this mode, Sentry configures xray-core via a configuration file and restarts the service on its own. In this mode, Sentry runs its own instance of xray, which provides an HTTP or SOCKS proxy that you can use as an outbound connection.
 
 ## Get started
 
